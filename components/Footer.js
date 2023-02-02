@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <p className='mx-auto my-16 text-center text-quaternary'>
+    <p className='mx-auto mt-16 mb-10 text-center text-quaternary'>
       Crafted with Passion by
       <a
         className='ml-1 text-secondary hover:text-primary group'
