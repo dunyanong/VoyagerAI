@@ -56,6 +56,7 @@ export default function Container(props) {
           <meta name='twitter:title' content={meta.title} />
           <meta name='twitter:description' content={meta.description} />
           <meta name='twitter:image' content={meta.image} />
+          <title>VoyagerAI</title>
           {meta.date && (
             <meta property='article:published_time' content={meta.date} />
           )}
@@ -102,7 +103,7 @@ export default function Container(props) {
           )}
         >
           <div>{children}</div>
-          <footer>
+          <footer className='mt-40'>
             <Footer />
           </footer>
         </main>
