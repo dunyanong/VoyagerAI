@@ -19,7 +19,7 @@ export default function BigText({ slides }) {
 
   return (
     <div className='flex flex-col items-center text-6xl font-extrabold tracking-tight md:text-9xl'>
-      <p className='text-2xl tracking-normal sm:text-3xl mb-3'></p>
+      <p className='text-2xl tracking-normal sm:text-3xl mb-6'></p>
       <div className='flex flex-col items-center'>        
         {slides.map((text, index) => {
           return (
